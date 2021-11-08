@@ -28,3 +28,21 @@ LeetCode:
 Coursera: N/A
     
 ---
+
+### November 7, 2021
+LeetCode:
+
+| Number | Difficulty | Notes |
+|--------|------------|-------|
+|  |  |  |
+|  |  |  |
+
+Coursera: N/A
+
+Udemy:
+- Sequential Search (unordered, ordered)
+- Binary Search (iterative, recursion)
+- Bubble Sort
+- Selection Sort
+
+---
