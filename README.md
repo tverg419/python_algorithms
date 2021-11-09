@@ -34,8 +34,6 @@ LeetCode:
 
 | Number | Difficulty | Notes |
 |--------|------------|-------|
-|  |  |  |
-|  |  |  |
 
 Coursera: N/A
 
@@ -44,5 +42,23 @@ Udemy:
 - Binary Search (iterative, recursion)
 - Bubble Sort
 - Selection Sort
+
+---
+
+### November 8, 2021
+LeetCode:
+
+| Number | Difficulty | Notes |
+|--------|------------|-------|
+|  |  |  |
+|  |  |  |
+
+Coursera: N/A
+
+Udemy:
+- Insertion Sort
+- Shell Sort
+- Quick Sort
+- Merge Sort
 
 ---
