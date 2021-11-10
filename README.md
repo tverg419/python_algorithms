@@ -50,14 +50,25 @@ LeetCode:
 
 | Number | Difficulty | Notes |
 |--------|------------|-------|
-|  |  |  |
-|  |  |  |
+
 
 Coursera: N/A
 
 Udemy:
 - Insertion Sort
 - Shell Sort
+
+---
+
+### November 9, 2021
+LeetCode:
+
+| Number | Difficulty | Notes |
+|--------|------------|-------|
+
+Coursera: N/A
+
+Udemy:
 - Quick Sort
 - Merge Sort
 
