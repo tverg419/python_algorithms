@@ -73,3 +73,17 @@ Udemy:
 - Merge Sort
 
 ---
+
+### November 10, 2021
+LeetCode:
+
+| Number | Difficulty | Notes |
+|--------|------------|-------|
+| #88    | Easy       | Incorrectly adds number from second array |
+| #278   | Easy       | Makes too many calls to API |
+
+Coursera: N/A
+
+Udemy: N/A
+
+---
