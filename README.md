@@ -112,10 +112,23 @@ LeetCode:
 
 | Number | Difficulty | Notes |
 |--------|------------|-------|
-| #202   | Easy       |
+| #75    | Medium     | Solve this problem using regular merge sort or quick sort. Challenge: modify the quick sort to sort after one pass given the only values can be 0, 1, 2 |
 
 Coursera: N/A
 
 Udemy: N/A
+
+---
+
+### November 12, 2021
+LeetCode:
+
+| Number | Difficulty | Notes |
+|--------|------------|-------|
+
+Coursera: N/A
+
+Udemy:
+- Graph Algorithms
 
 ---
