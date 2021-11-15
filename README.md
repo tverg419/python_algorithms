@@ -132,3 +132,16 @@ Udemy:
 - Graph Algorithms
 
 ---
+
+### November 14, 2021
+LeetCode:
+
+| Number | Difficulty | Notes |
+|--------|------------|-------|
+| #2     | Medium     | |
+
+Coursera: N/A
+
+Udemy:
+
+---
