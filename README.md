@@ -161,3 +161,20 @@ Coursera: N/A
 Udemy:
 
 ---
+
+### November 21, 2021
+LeetCode:
+
+| Number | Difficulty | Notes |
+|--------|------------|-------|
+
+Coursera: N/A
+
+Udemy:
+- Non Coding Interview Problems:
+    - Bridge Crossing
+    - Coins and a Scale
+    - Egg Drop
+    - Hallway Lockers
+
+---
