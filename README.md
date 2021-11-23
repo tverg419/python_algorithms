@@ -178,3 +178,22 @@ Udemy:
     - Hallway Lockers
 
 ---
+
+### November 22, 2021
+LeetCode:
+
+| Number | Difficulty | Notes |
+|--------|------------|-------|
+| #111   | Easy       |       |
+| #559   | Easy       |       |
+
+Coursera: N/A
+
+Udemy: N/A
+
+Reviewing Behavioral Interview Questions:
+- Tell me about yourself
+- Tell me a time about conflict
+- Tell me about a challenging project
+
+---
