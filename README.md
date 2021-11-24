@@ -197,3 +197,16 @@ Reviewing Behavioral Interview Questions:
 - Tell me about a challenging project
 
 ---
+
+### November 23, 2021
+LeetCode:
+
+| Number | Difficulty | Notes |
+|--------|------------|-------|
+| #24    | Medium     | if the head and next exist, recursively swap head.next. return the temporary variable and then return the head at the end |
+
+Coursera: N/A
+
+Udemy: N/A
+
+---
