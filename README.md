@@ -224,3 +224,20 @@ Coursera: N/A
 Udemy: N/A
 
 ---
+
+### December 2, 2021
+
+LeetCode:
+
+| Number | Difficulty | Notes |
+|--------|------------|-------|
+| #6     | Medium     |       |
+| #11    | Medium     | sliding window algorithm |
+
+- review sliding window algorithm
+
+Coursera: N/A
+
+Udemy: N/A
+
+---
