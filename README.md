@@ -241,3 +241,19 @@ Coursera: N/A
 Udemy: N/A
 
 ---
+
+### December 3, 2021
+
+LeetCode:
+
+| Number | Difficulty | Notes |
+|--------|------------|-------|
+| #22    | Medium     | backtracking algorithm |
+
+- review backtracking algorithm
+
+Coursera: N/A
+
+Udemy: N/A
+
+---
