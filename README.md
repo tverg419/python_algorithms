@@ -308,9 +308,24 @@ LeetCode:
 
 | Number | Difficulty | Notes |
 |--------|------------|-------|
-| #108   | Easy       |  |
+| #108   | Easy       | basics of recursion in a BST |
 | #110   | Easy       |  |
 | #112   | Easy       |  |
+
+Coursera: N/A
+
+Udemy: N/A
+
+---
+
+### December 10, 2021
+
+LeetCode:
+
+| Number | Difficulty | Notes |
+|--------|------------|-------|
+| #36    | Medium     |  |
+| #39    | Medium     |  |
 
 Coursera: N/A
 
