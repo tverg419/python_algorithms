@@ -325,6 +325,19 @@ LeetCode:
 | Number | Difficulty | Notes |
 |--------|------------|-------|
 | #36    | Medium     |  |
+
+Coursera: N/A
+
+Udemy: N/A
+
+---
+
+### December 12, 2021
+
+LeetCode:
+
+| Number | Difficulty | Notes |
+|--------|------------|-------|
 | #39    | Medium     |  |
 
 Coursera: N/A
