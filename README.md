@@ -345,3 +345,17 @@ Coursera: N/A
 Udemy: N/A
 
 ---
+
+### December 13, 2021
+
+LeetCode:
+
+| Number | Difficulty | Notes |
+|--------|------------|-------|
+| #40    | Medium     |  |
+
+Coursera: N/A
+
+Udemy: N/A
+
+---
