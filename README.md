@@ -359,3 +359,32 @@ Coursera: N/A
 Udemy: N/A
 
 ---
+
+### December 14, 2021
+
+LeetCode:
+
+| Number | Difficulty | Notes |
+|--------|------------|-------|
+
+Coursera: N/A
+
+Udemy: N/A
+
+Most Common Algorithm Concepts (Clement Mihailescu):
+1. Depth-First search 
+2. Breadth-First search
+3. Stack implementation
+    - Ex. brack check problem
+4. Utilizing hash-tables
+5. Multiple pointer technique
+    - Ex. longest palindrome substring in a string
+6. Reversing a  linked List
+    - Ex. Identify a cycle in a linked list
+7. Sorting fundamentals (time/space complexity, bubble sort, merge sort) 
+8. Recursion
+9. Custom data strucutres
+10. Binary search
+
+---
+
