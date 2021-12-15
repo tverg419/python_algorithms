@@ -366,7 +366,8 @@ LeetCode:
 
 | Number | Difficulty | Notes |
 |--------|------------|-------|
-
+| #75    | Medium     | 3-pointer question |
+| #231   | Easy       | Basic math concept |
 Coursera: N/A
 
 Udemy: N/A
