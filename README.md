@@ -389,3 +389,14 @@ Most Common Algorithm Concepts (Clement Mihailescu):
 
 ---
 
+### December 16, 2021
+
+LeetCode:
+
+| Number | Difficulty | Notes |
+|--------|------------|-------|
+| #5     | Medium     | |
+
+Coursera: N/A
+
+Udemy: N/A
