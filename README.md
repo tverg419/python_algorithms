@@ -430,3 +430,20 @@ LeetCode:
 Coursera: N/A
 
 Udemy: N/A
+
+--- 
+
+### December 20, 2021
+*Start Curated List of Top 75 LeetCode Questions*
+
+**Problem:** #1 Two Sum
+
+**Solution**
+- Utilize a dictionary to store each value in the array
+    - key => value from array
+    - value => target - value from array
+- Check the dictionary and return the pair
+
+**Notes**
+- Traversing through an array
+- Use a dictionary to retain information
