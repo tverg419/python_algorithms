@@ -448,7 +448,7 @@ Udemy: N/A
 - Traversing through an array
 - Use a dictionary to retain information
 
-
+---
 
 ### December 21, 2021
 
@@ -465,3 +465,22 @@ Udemy: N/A
 - Understanding computational differences between base 10 operations and base 2 operations
 - Utilize bitwise operators
     - AND(&), XOR(^), Left Shift (<<)
+
+--- 
+
+### December 22, 2021
+
+**Problem:** #70 Climbing Stairs
+
+**Solution**
+- break the problem down into smaller steps
+    - Ex. Step 5 is the summation of the decisions of Step 4(1-Step) & Step 3(2-Step)
+    - Similarly, Step 4 is the summation of the decisions of Step 3(1-Step) & Step 2(2-Step)
+- this turns the problem into a recursion problem
+- our bases cases are Step(0) = 1 and Step(1) = 1
+
+**Notes**
+- recognize the problem is a dynamic programming question
+- a more efficient solutions is to store the values in a list and call the list instead of redoing the calculation
+
+---
