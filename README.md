@@ -447,3 +447,18 @@ Udemy: N/A
 **Notes**
 - Traversing through an array
 - Use a dictionary to retain information
+
+--- 
+
+### December 21, 2021
+
+**Problem:** #371 Sum of Two Integers
+
+**Solution**
+
+**Notes**
+- Understanding bit shifting/manipulation
+- Number basing (binary is number base 2)
+- Understanding computational differences between base 10 operations and base 2 operations
+- Utilize bitwise operators
+    - AND(&), OR(|), XOR(^), Left Shift (<<), Right Shift (>>)
