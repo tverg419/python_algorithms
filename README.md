@@ -448,17 +448,20 @@ Udemy: N/A
 - Traversing through an array
 - Use a dictionary to retain information
 
---- 
+
 
 ### December 21, 2021
 
 **Problem:** #371 Sum of Two Integers
 
 **Solution**
+- Utilize AND operator to handle carrying a digit over
+- Utilize XOR (exclusive OR) operator to handle addition of bits
+- Lastly, utilize left shift operator to carry bits over left
 
 **Notes**
 - Understanding bit shifting/manipulation
 - Number basing (binary is number base 2)
 - Understanding computational differences between base 10 operations and base 2 operations
 - Utilize bitwise operators
-    - AND(&), OR(|), XOR(^), Left Shift (<<), Right Shift (>>)
+    - AND(&), XOR(^), Left Shift (<<)
