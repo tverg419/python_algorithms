@@ -484,3 +484,26 @@ Udemy: N/A
 - a more efficient solutions is to store the values in a list and call the list instead of redoing the calculation
 
 ---
+
+### December 23, 2021
+
+**Problem:** #133 Clone Graph
+
+**Solution**
+- In order to clone a graph, we must search through it using eithter DFS or BFS
+- Pick BFS
+- Initialize a starting node for the copy graph
+- Initialize a dictionary that holds the values of all "seen" neighbors
+- Initialize a queue that remembers what nodes still need to be processed
+- while a queue still exists
+    - obtain next node in the queue
+    - process all it's neighbors
+        - add unseen nodes to queue
+        - add all neighbors to output dict
+    
+
+**Notes**
+- An **adjacency list** is a collection of unordered lists used to represent a finite graph. Each list describes the set of neighbors of a node in the graph.
+- **Deep Clone** is an identical creation of an object. Each refernce should return the same information, but it references the new object not the old one.
+- **Shallow Clone** is a copy of the references of each field. This type of clone still refers to the same object.
+---
