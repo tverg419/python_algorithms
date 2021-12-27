@@ -500,10 +500,25 @@ Udemy: N/A
     - process all it's neighbors
         - add unseen nodes to queue
         - add all neighbors to output dict
-    
 
 **Notes**
 - An **adjacency list** is a collection of unordered lists used to represent a finite graph. Each list describes the set of neighbors of a node in the graph.
 - **Deep Clone** is an identical creation of an object. Each refernce should return the same information, but it references the new object not the old one.
 - **Shallow Clone** is a copy of the references of each field. This type of clone still refers to the same object.
+
+---
+
+### December 26, 2021
+
+**Problem:** #57 Insert Interval
+
+**Solution**
+- define a merge function
+    - compares the lower bound of the old/new intervals
+    - compares the upper bound of the old/new intervals
+    - if the intervals overlap, take the min as the lower bound and take the max as the upper bound
+
+**Notes**
+- 
+
 ---
