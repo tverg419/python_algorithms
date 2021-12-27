@@ -516,9 +516,29 @@ Udemy: N/A
 - define a merge function
     - compares the lower bound of the old/new intervals
     - compares the upper bound of the old/new intervals
-    - if the intervals overlap, take the min as the lower bound and take the max as the upper bound
+    - if the intervals overlap, take the min as the lower bound and take the max as the upper bound        
 
 **Notes**
 - 
+
+---
+
+### December 27, 2021
+
+**Problem:** #206 Reverse Linked-List 
+
+**Solution**
+- Define two pointer 
+    - current (holds the remaining portion of the linked list)
+    - reverse (holds the reverese linked list)
+- Loop:
+    - store the next values temporarily
+    - point the current value to the reverse to add the next value to reveresed list
+    - update the reverse pointer to hold the new linked list
+    - reassign current the temporatily stored values
+ 
+**Notes**
+- Defining a linked list
+- Utilizing two pointers in a linked-list
 
 ---
