@@ -519,6 +519,7 @@ Udemy: N/A
     - if the intervals overlap, take the min as the lower bound and take the max as the upper bound        
 
 **Notes**
+- recognize a greedy algorithm
 - 
 
 ---
@@ -540,5 +541,31 @@ Udemy: N/A
 **Notes**
 - Defining a linked list
 - Utilizing two pointers in a linked-list
+
+---
+
+### December 27, 2021
+
+**Problem:** #73 Set Matrix Zeroes
+
+**Solution**
+- Brute Force Solution:
+    - Make a copy matrix that is updated as we discover new zeroes in the original matrix and then reassign the original matrix to the copy.
+
+- Semi-Efficient Solution
+    - Create two row lists that store if a row/column contains a zero.
+    - Traverse through the entire matrix.
+        - if a zero is detected change both that row and column index into a zero 
+    - Once all the zeroes are detected, change all the necessary cells into zeroes and return the original matrix
+
+- Most Efficient Solution
+    - Requires only constant space complexity.
+    - Replaces the first row and column of the matrix and stores the markers similar to the semi-efficient solution
+    - must store an extra cell of memory because the first index of the row and column overlaps
+
+**Notes**
+- traversing through an array
+- recognizing the tradeoffs for space complexity
+- copying matrices
 
 ---
