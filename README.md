@@ -437,6 +437,7 @@ Udemy: N/A
 *Start Curated List of Top 75 LeetCode Questions*
 
 **Problem:** #1 Two Sum
+**Category:** Array
 
 **Solution**
 - Utilize a dictionary to store each value in the array
@@ -453,6 +454,7 @@ Udemy: N/A
 ### December 21, 2021
 
 **Problem:** #371 Sum of Two Integers
+**Category:** Binary
 
 **Solution**
 - Utilize AND operator to handle carrying a digit over
@@ -471,6 +473,7 @@ Udemy: N/A
 ### December 22, 2021
 
 **Problem:** #70 Climbing Stairs
+**Category:** Dynamic Programming
 
 **Solution**
 - break the problem down into smaller steps
@@ -488,6 +491,7 @@ Udemy: N/A
 ### December 23, 2021
 
 **Problem:** #133 Clone Graph
+**Category:** Graph
 
 **Solution**
 - In order to clone a graph, we must search through it using eithter DFS or BFS
@@ -511,6 +515,7 @@ Udemy: N/A
 ### December 26, 2021
 
 **Problem:** #57 Insert Interval
+**Category:** Interval
 
 **Solution**
 - define a merge function
@@ -526,7 +531,8 @@ Udemy: N/A
 
 ### December 27, 2021
 
-**Problem:** #206 Reverse Linked-List 
+**Problem:** #206 Reverse Linked-List
+**Category:** Linked-List 
 
 **Solution**
 - Define two pointer 
@@ -544,9 +550,10 @@ Udemy: N/A
 
 ---
 
-### December 27, 2021
+### December 28, 2021
 
 **Problem:** #73 Set Matrix Zeroes
+**Category:** Matrices
 
 **Solution**
 - Brute Force Solution:
@@ -568,4 +575,28 @@ Udemy: N/A
 - recognizing the tradeoffs for space complexity
 - copying matrices
 
+---
+
+### December 29, 2021
+
+**Problem:** #3 Longest Substring Without Repeating Characters
+**Category:** Strings
+
+**Solution**
+- Initialize a left and right pointer of the current string
+- Initialize a set that will holds all the current characters
+- Initialize a longest (output) variable
+- Loop thorugh entire string
+    - if char not in set:
+        - add char to set
+        - move right pointer over
+    - while char in set:
+        - store the current if it's the longest
+        - remove leftmost char from set and move left pointer over
+    - set longest to max of longest & (right - left)
+
+
+**Notes**
+- Sliding window problem
+- Solution failed when using an if for checking char in set, but passed when using while.
 ---
