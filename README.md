@@ -599,4 +599,23 @@ Udemy: N/A
 **Notes**
 - Sliding window problem
 - Solution failed when using an if for checking char in set, but passed when using while.
+
+---
+
+### January 5th, 2021
+
+**Problem:** #104 Maximum Depth of a Binary Tree
+**Category:** Trees
+
+**Solution**
+- Recursive Method:
+    - Base Case: if the root has a value of None, return 0
+    - Recursive Case: return 1 + recursive call to the left and right sides of the tree
+- Try Working through each iterative case
+- DFS:
+- BFS: 
+
+**Notes**
+-  Depth-First Search v. Breadth First-Search
+
 ---
