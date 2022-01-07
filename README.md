@@ -619,3 +619,19 @@ Udemy: N/A
 -  Depth-First Search v. Breadth First-Search
 
 ---
+
+### January 6th, 2021
+
+**Problem:** #121 Best Time to Buy and Sell Stock
+**Category:** Array
+
+**Solution**
+- Initialize a max profit variable
+- Loop through the list
+    - if your new number is less than current min, replace min 
+    - else take the difference of your current number and the minimum and if it is larger than the current max profit update the value
+
+**Notes**
+-  Don't reassign the profit value everytime because it slows down the algorithm. Add a conditional so that it only updates the value when that conditional is met
+
+---
