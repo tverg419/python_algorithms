@@ -635,3 +635,21 @@ Udemy: N/A
 -  Don't reassign the profit value everytime because it slows down the algorithm. Add a conditional so that it only updates the value when that conditional is met
 
 ---
+
+### January 7th, 2021
+
+**Problem:** #191 Number of 1 Bits
+**Category:** Binary
+
+**Solution**
+- Use a while loop to see if integer can be shifted (divide by 2)
+    - Use AND operator to check if current n & 1 equates to 1, increment the output
+- Loop exits early so you have to do one more operation to check the last bit
+- return the output
+
+**Notes**
+- **Hamming weight** the number of symbols in a given string that are non-zero symbols 
+- We should be able to limit the number of times we have to bit shift based on the number itself.
+    - Ex. 16 > 11 => only have to check the last 4 bits
+
+---
