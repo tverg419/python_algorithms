@@ -602,7 +602,7 @@ Udemy: N/A
 
 ---
 
-### January 5th, 2021
+### January 5, 2021
 
 **Problem:** #104 Maximum Depth of a Binary Tree
 **Category:** Trees
@@ -620,7 +620,7 @@ Udemy: N/A
 
 ---
 
-### January 6th, 2021
+### January 6, 2021
 
 **Problem:** #121 Best Time to Buy and Sell Stock
 **Category:** Array
@@ -636,7 +636,7 @@ Udemy: N/A
 
 ---
 
-### January 7th, 2021
+### January 7, 2021
 
 **Problem:** #191 Number of 1 Bits
 **Category:** Binary
@@ -651,5 +651,22 @@ Udemy: N/A
 - **Hamming weight** the number of symbols in a given string that are non-zero symbols 
 - We should be able to limit the number of times we have to bit shift based on the number itself.
     - Ex. 16 > 11 => only have to check the last 4 bits
+
+---
+
+### January 8, 2021
+
+**Problem:** #322 Coin Change
+**Category:** Dynamic Programming
+
+**Solution**
+- Have a variable that stores the smallest amount of coins
+- Have an array that stores the previous number of combinations
+- Loop through each value up to the amount
+    - go through each coin and see if subtracting the amount is valid
+    - update value to minimum
+
+**Notes**
+- 
 
 ---
