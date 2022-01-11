@@ -693,3 +693,20 @@ Udemy: N/A
 - An **adjacency list** is a type of graph where the nodes are stored in a list and the values of each element are the neighbors of the given node.
 
 ---
+
+### January 10, 2022
+
+**Problem:** #56 Merge Intervals
+**Category:** Intervals
+
+**Solution**
+- Have a variable that holds the current interval
+- Sort the list of intervals by starting index
+- Since they are sorted by starting index, we are assuming that the next interval will always have a start that is greater than or equal to the current index
+- Traverse through the list of intervals with 2 possible outcomes
+    1. first end < second end
+    2. second start > first end
+- Append last interval and return output list
+
+**Notes**
+- Recall how to use Python built-in sorted function
