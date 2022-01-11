@@ -602,7 +602,7 @@ Udemy: N/A
 
 ---
 
-### January 5, 2021
+### January 5, 2022
 
 **Problem:** #104 Maximum Depth of a Binary Tree
 **Category:** Trees
@@ -620,7 +620,7 @@ Udemy: N/A
 
 ---
 
-### January 6, 2021
+### January 6, 2022
 
 **Problem:** #121 Best Time to Buy and Sell Stock
 **Category:** Array
@@ -636,7 +636,7 @@ Udemy: N/A
 
 ---
 
-### January 7, 2021
+### January 7, 2022
 
 **Problem:** #191 Number of 1 Bits
 **Category:** Binary
@@ -654,7 +654,7 @@ Udemy: N/A
 
 ---
 
-### January 8, 2021
+### January 8, 2022
 
 **Problem:** #322 Coin Change
 **Category:** Dynamic Programming
@@ -668,5 +668,28 @@ Udemy: N/A
 
 **Notes**
 - 
+
+---
+
+### January 9, 2022
+
+**Problem:** #207 Course Schedule
+**Category:** Graph
+
+**Solution**
+- The prerequisite component indicates the question can be solved with a directed graph
+- Notice if a cycle occurs within the prerequisites, then the courses cannot be completed
+- Create an adjancency list to see the neighbors of each node
+- Create a dependencies array that shows how many other nodes are pointing at a given node
+    - Zero dependencies is similar to not have any prerequisites for a course
+- Create a queue to process courses
+    - Start with zero dependency nodes
+    - Look through neighbors and decrease respective dependency counts by 1 for wvery neighbor
+    - Add nodes that no longer have any dependencies
+    - If you clear all nodes after finishing the queue, then return True. Else return False
+
+**Notes**
+- A **direct graph** is 
+- An **adjacency list** is a type of graph where the nodes are stored in a list and the values of each element are the neighbors of the given node.
 
 ---
