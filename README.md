@@ -654,7 +654,7 @@ Udemy: N/A
 
 ---
 
-### January 8, 2022
+### January 9, 2022
 
 **Problem:** #322 Coin Change
 **Category:** Dynamic Programming
@@ -671,7 +671,7 @@ Udemy: N/A
 
 ---
 
-### January 9, 2022
+### January 10, 2022
 
 **Problem:** #207 Course Schedule
 **Category:** Graph
@@ -694,7 +694,7 @@ Udemy: N/A
 
 ---
 
-### January 10, 2022
+### January 11, 2022
 
 **Problem:** #56 Merge Intervals
 **Category:** Intervals
@@ -710,3 +710,27 @@ Udemy: N/A
 
 **Notes**
 - Recall how to use Python built-in sorted function
+
+---
+
+### January 12, 2022
+
+**Problem:** #141 Detect a Cycle in a Linked-List
+**Category:** Linked-List
+
+**Solution**
+- Use the Floyd's Cycle Detection Algorithm
+- Condition for the while loop should be if fast and fast.next both do NOT equal None
+
+**Notes**
+- Floyd's Cycle Detection Algorithm has multiple uses
+    - detects if a cycle exists in a linked-list
+    - calculates the mid point of a linked-list
+    -
+- Details of the algorithm
+    - slow pointer: Traverses through the linked list normally
+    - fast-pointer: Traverses through the linked list twice as fast
+    - Ex. slow = list.next, fast = list.next.next
+    - Since the fast poitner is moving twice as quick it should either reach the end of the list, where the slow pointer indicates the middle of the list, OR the fast pointer will catch up to the slow pointer and detect that a cycle exists within the linked-list.
+
+---
