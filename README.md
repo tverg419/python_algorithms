@@ -734,3 +734,19 @@ Udemy: N/A
     - Since the fast poitner is moving twice as quick it should either reach the end of the list, where the slow pointer indicates the middle of the list, OR the fast pointer will catch up to the slow pointer and detect that a cycle exists within the linked-list.
 
 ---
+
+### January 13, 2022
+
+**Problem:** #54 Spiral Matrix
+**Category:** Matrices
+
+**Solution**
+- Use a two-pointer boundary for both directions of the matrix ( left, right & top, bottom)
+- Have a while condition where left > right and bottom > top
+- Loop through each direction printing each element and then shifting the boundary over once complete
+    - Ex. After processing the first three elements in the first row, we want to shift the top boundary down because we have already processed those elements.
+
+**Notes**
+- Be careful of accessing certain elements, the ranges of the functions differ as you traverse through the loop of the matrix.
+
+---
