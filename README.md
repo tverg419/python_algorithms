@@ -750,3 +750,17 @@ Udemy: N/A
 - Be careful of accessing certain elements, the ranges of the functions differ as you traverse through the loop of the matrix.
 
 ---
+
+### January 14, 2022
+
+**Problem:** #424 Longest Repeating String Replacement
+**Category:** Strings
+
+**Solution**
+- Utilize a hashmap to store the counts of each letter and deduce the most repeating char
+- Calculate the max possible size of the window by taking the length of the 
+
+**Notes**
+- 
+
+---
