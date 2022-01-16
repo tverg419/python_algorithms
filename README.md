@@ -764,3 +764,26 @@ Udemy: N/A
 - 
 
 ---
+
+### January 16, 2022
+
+**Problem:** #100 Same Tree
+**Category:** Tree
+
+**Solution**
+- Recursive solution
+    - Base Case
+        1. Check if both values are null
+        2. Check if one value is null while the other is not
+        3. Check if both values are not null, but not equal
+    - Recursive Base
+        - This is the case where both values are equal to the same value
+        - Recursively check if the left subtree and the right subtree are the same of those nodes
+
+- Iterative solution
+
+**Notes**
+- Tree problems mean you can solve them recursively or iteratively
+- Reviewing structural differences of trees
+
+---
