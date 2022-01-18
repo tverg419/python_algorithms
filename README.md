@@ -787,3 +787,18 @@ Udemy: N/A
 - Reviewing structural differences of trees
 
 ---
+
+### January 17, 2022
+
+**Problem:** #217 Contains Duplicate
+**Category:** Array
+
+**Solution**
+- Initialize a set for the elements as they are processed.
+- If a number is encountered that is already in the set, then there are duplicates and the program should return True
+- If the program is able to process all elements and exit the loop, return False
+
+**Notes**
+- A **set** is a special type of list that can only contain one of each element and is immutable
+
+---
