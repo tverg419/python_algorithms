@@ -802,3 +802,21 @@ Udemy: N/A
 - A **set** is a special type of list that can only contain one of each element and is immutable
 
 ---
+
+### January 18, 2022
+
+**Problem:** #338 Counting Bits
+**Category:** Binary / Dynamic Programming
+
+**Solution**
+- Initialize an array that starts at 0
+- Loop from 0 to n
+- Store the previous answers in the cache to reference later
+- After finishing the algorithm, append the digit and restart
+- Return the output array
+
+**Notes**
+- Recognize the pattern for dynamic programming
+- Just because the problem doesn't implicitly say "DP" that you can't break it down into a DP problem
+
+---
