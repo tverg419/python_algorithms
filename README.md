@@ -820,3 +820,16 @@ Udemy: N/A
 - Just because the problem doesn't implicitly say "DP" that you can't break it down into a DP problem
 
 ---
+
+### January 19, 2022
+
+**Problem:** #300 Longest Increasing Subsequence
+**Category:** Dynamic Programming
+
+**Solution**
+- 
+
+**Notes**
+- 
+
+---
