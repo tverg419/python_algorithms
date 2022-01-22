@@ -827,9 +827,32 @@ Udemy: N/A
 **Category:** Dynamic Programming
 
 **Solution**
-- 
+- Attempted Solution: 
+    - Store a current longest substring and a max list 
+    - If a larger value than the value most recently added was encountered, add that value to the current list.
+    - If a smaller or equal value was encounterded, check to see if the current list is longer than the max stored list. If current > max than update max.
+    - Reset the current to be the most recent encounterd element
+
+- Solution:
+    - 
 
 **Notes**
 - 
+
+---
+
+### January 21, 2022
+
+**Problem:** #417 Pacific Atlantic Water Flow
+**Category:** Graph
+
+**Solution**
+- DFS Solution
+    - Initialize two boolean matrices for each ocean that indicate if the ocean can be reached or not.
+    - Start at each node and dfs its neighbor >= node
+    - Go through all nodes again and see if you reach both oceans
+
+**Notes**
+- If you revisit all visited nodes again, you will run into the recursion limit.  Try not re-visiting nodes if you hit them already
 
 ---
