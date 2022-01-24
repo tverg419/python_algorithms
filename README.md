@@ -856,3 +856,18 @@ Udemy: N/A
 - If you revisit all visited nodes again, you will run into the recursion limit.  Try not re-visiting nodes if you hit them already
 
 ---
+
+### January 23, 2022
+
+**Problem:** #21 Merge Two Sorted Lists
+**Category:** Linked-List
+
+**Solution**
+- Initialize an output head node that will hold the final linked-list
+- Use a while loop to continuously iterate through each linked list comparing the values.
+    - if l1 > l2, add l1.val and update l1 to be l1.next
+    - vice versa for l2 > l1
+- After finishing the loop, one of the two linked-lists will still be None empty, so you a conditional to figure out which list it is and add that to the output list
+
+**Notes**
+- 
