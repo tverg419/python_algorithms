@@ -871,3 +871,22 @@ Udemy: N/A
 
 **Notes**
 - 
+
+---
+
+### January 31, 2022
+
+**Problem:** Self-Descriptive Number
+**Category:** Strings
+
+**Solution**
+- Store a dictionary that holds the count of each letter
+- Recognize the pattern of which letters have special characters
+0:z, 2:w, 4:u, 6:x, 7:s, 8:g
+- Removw all of these letters of each number from the counts
+- Recognize special characters from the remaining numbers
+- Append as you find numbers
+- Don''t forget to sort at the end
+
+**Notes**
+- 
