@@ -890,3 +890,17 @@ Udemy: N/A
 
 **Notes**
 - 
+
+---
+
+### February 3, 2022
+
+Reviewed Easy LeetCode Problems:
+- Two Sum
+- Palindrome Number
+- Valid Parentheses
+- Climb Stairs
+- Same Tree
+
+---
+
