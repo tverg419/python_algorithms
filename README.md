@@ -904,3 +904,19 @@ Reviewed Easy LeetCode Problems:
 
 ---
 
+### February 6, 2022
+
+**Problem:** #17 Letter Combinations of a Phone Number
+**Category:** Matrices, Recursion
+
+**Solution**
+- Use a hashmap to store the numbers as keys and list of letters as values
+- Utilize nested loops to iterate over each letter in both values
+- check if the digit has a length
+- will the algorithm interact different when len(digits) == 1
+- store the output in a list and append to the list
+
+**Notes**
+- can we utilize recursion at all?
+
+---
