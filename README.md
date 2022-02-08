@@ -904,19 +904,19 @@ Reviewed Easy LeetCode Problems:
 
 ---
 
-### February 6, 2022
+### February 7, 2022
 
 **Problem:** #17 Letter Combinations of a Phone Number
-**Category:** Matrices, Recursion
+**Category:** Recursion, Backtracking
 
 **Solution**
 - Use a hashmap to store the numbers as keys and list of letters as values
-- Utilize nested loops to iterate over each letter in both values
-- check if the digit has a length
-- will the algorithm interact different when len(digits) == 1
-- store the output in a list and append to the list
+- Utilize the backtracking algorithm that takes in parameters index(index of the position in digits), s (current string)
+    - Base Case: if len(digits) == len(current) append the string to output list
+    - Recursive Case: loop through each letter in the current index and call backtracking while adding the new character to s
 
 **Notes**
-- can we utilize recursion at all?
+- Utilizes recursion and backtracking
+- This solution will always have a poor time complexity, how can we minimize it?
 
 ---
